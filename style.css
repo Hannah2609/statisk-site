@@ -1,0 +1,82 @@
+@font-face {
+    font-family: montserrat;
+    src: url(montserrat-kopi/Montserrat-Light.otf);
+}
+body {
+    margin: 0 auto 0;
+    font-family: montserrat;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+    text-transform: uppercase;
+   
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+nav a {
+    color: rgb(115, 115, 115);
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 0;
+    background-color: white
+}
+
+header {
+    margin-inline: 5%;
+    margin-top: 20px;
+}
+
+h3, h4, h5 {
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+#productlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    padding: 80px;
+}
+
+@media (min-width: 900px) {
+    #productlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+    padding: 90px;
+}
+}
+
+.product-text {
+    display: flex;
+
+}
+.product-text h3{
+    font-size: 15px;
+    color: rgb(115, 115, 115);
+}
+
+
+.price.discount {
+position: relative;
+}
+.price.discount h5 {
+    position: absolute;
+    right: 0;
+}
