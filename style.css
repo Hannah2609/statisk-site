@@ -36,30 +36,37 @@ header {
 }
 
 h3, h4, h5 {
-    margin: 5px;
+    margin: 1px;
     text-transform: uppercase;
 }
 
 h2 {
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
-
+h3 {
+    margin-bottom: 10px;
+}
+p {
+    margin: 10px;
+    margin-left: 0px;
+}
 img {
     max-width: 100%;
 }
 #productlist {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3em;
-    padding: 80px;
+    gap: 4em;
+    padding: 100px;
 }
 
 @media (min-width: 900px) {
     #productlist {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 3em;
-    padding: 90px;
+    gap: 4em;
+    padding: 100px;
 }
 }
 
@@ -72,11 +79,11 @@ img {
     color: rgb(115, 115, 115);
 }
 
-
-.price.discount {
-position: relative;
+.product-bag-soldout-discount p, .product-bottle-discount p{
+color: red;
 }
-.price.discount h5 {
-    position: absolute;
-    right: 0;
+
+.discount p {
+    color: black;
+    font-size: 13px;
 }
