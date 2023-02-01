@@ -82,7 +82,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4em;
-    padding: 100px;
+    padding: 5%;
 }
 
 @media (min-width: 900px) {
@@ -90,16 +90,16 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4em;
-    padding: 100px;
+    padding: 5%;
 }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
     #productlist {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 4em;
-    padding-inline: 180px;
+    padding-inline: 5%;
 }
 }
 
