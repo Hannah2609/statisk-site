@@ -74,6 +74,11 @@ img {
 #frontpage {
     text-align: center;
     padding-top: 15%;
+    background-image: url(bg-kopi.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
 }
 
 #frontpage h1 {
