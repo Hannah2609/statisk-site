@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="productlist">
     <header>
       <nav>
         <a class="logo" href="index.html"> FashionRus</a>
@@ -23,9 +23,10 @@
     </header>
     <main>
       <h1>Accessories</h1>
-      <section id="productlist">
-        <article class="product-bag">
-          <img
+     <template id="product-template"> 
+        <article class="product soldout">
+
+          <img 
             src="https://kea-alt-del.dk/t7/images/jpg/640/1565.jpg"
             alt="grøn taske"
           />
@@ -36,8 +37,8 @@
           <p>DKK 399</p>
           <div class="buy-link"><a href="product.html">Read more</a></div>
         </article>
-
-        <article class="product-bottle-discount">
+<!-- 
+        <article class="product-discount">
           <div class="overlay_discount">
             <img
               src="https://kea-alt-del.dk/t7/images/jpg/640/1555.jpg"
@@ -58,7 +59,7 @@
           <div class="buy-link"><a href="product.html">Read more</a></div>
         </article>
 
-        <article class="product-bottle-soldout">
+        <article class="product-soldout">
           <div class="overlay_soldout">
             <img
               src="https://kea-alt-del.dk/t7/images/jpg/640/1554.jpg"
@@ -76,7 +77,7 @@
           <div class="buy-link"><a href="product.html">Read more</a></div>
         </article>
 
-        <article class="product-bag-soldout-discount">
+        <article class="product-soldout-discount">
           <div class="overlay_soldout">
             <img
               src="https://kea-alt-del.dk/t7/images/jpg/640/1559.jpg"
@@ -98,9 +99,10 @@
             <p>Prev. <s>DKK 399</s> - save 51%</p>
           </div>
           <div class="buy-link"><a href="product.html">Read more</a></div>
-        </article>
-      </section>
+        </article> -->
+  </template> 
     </main>
     <footer></footer>
+    <script src="JS/product-list.js"></script>
   </body>
 </html>
